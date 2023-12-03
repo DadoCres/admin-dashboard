@@ -4,49 +4,242 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
+        <header class="header">
+            <div class="search-container">
+                <label for="search-field"><img src="img/search.svg" alt="search"></label>
+                <input type="text" id="search-id" class="search-field">
+            </div>
 
-    <div class="container">
-        <div class="header">
-            <div class="search">
-                <img src="" alt="Search img">
-                <input type="text">
+            <div class="profile-container">
+                <img src="img/bell.png" alt="bell" class="bell-img">
+                <img src="img/shiba-inu-.jpg" alt="profile" class="user-profile">
+                <h3 class="user-name">Morgan Oakley</h3>
             </div>
-            <div class="account">
-                <img src="" alt="notification">
-                <img src="" alt="acc pic">
-                <h3 class="username">Morgan Oakley</h3>
+
+            <div class="welcome-container">
+                <img src="img/shiba-inu-.jpg" alt="profile big" class="user-profile-big">
+                <p class="hi-para">Hi there,</p>
+                <p class="main-user-name">Morgan Oakley (@morgan)</p>
             </div>
-            <div class="welcome">
-                <img src="" alt="acc pic">
-                <p class="hi">Hi there</p>
-                <p class="main-username">Morgan Oakley (@morgan)</p>
+
+            <div class="button-container">
+                <button class="header-btn">New</button>
+                <button class="header-btn">Upload</button>
+                <button class="header-btn">Share</button>
             </div>
-        </div>
+        </header>
 
         <nav class="sidebar">
-            <div class="logo">Dashboard</div>
-            <div class="navigation">
-                <div class="side-content">Home</div>
-                <div class="side-content">Profile</div>
-                <div class="side-content">Messages</div>
-                <div class="side-content">History</div>
-                <div class="side-content">Tasks</div>
-                <div class="side-content">Communities</div>
+            <div class="logo">
+                <img src="img/dog.svg" alt="dashboard-img" class="logo-img">
+                <h3>Dashboard</h3>
             </div>
-            <div class="branding">
-                <div class="side-content">Settings</div>
-                <div class="side-content">Support</div>
-                <div class="side-content">Privacy</div>
+
+            <div class="main-links">
+                <ul>
+                    <li>
+                        <img src="img/home.png" alt="home-img" class="link-img">
+                        <p>Home</p>
+                    </li>
+
+                    <li>
+                        <img src="img/profile.png" alt="profile-img" class="link-img">
+                        <p>Profile</p>
+                    </li>
+                    <li>
+                        <img src="img/message.png" alt="messages-img" class="link-img">
+                        <p>Messages</p>
+                    </li>
+                    <li>
+                        <img src="img/history.png" alt="history-img" class="link-img">
+                        <p>History</p>
+                    </li>
+                    <li>
+                        <img src="img/tasks.png" alt="tasks-img" class="link-img">
+                        <p>Tasks</p>
+                    </li>
+                    <li>
+                        <img src="img/communities.png" alt="communities-img" class="link-img">
+                        <p>Communities</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="secondary-links">
+                <ul>
+                    <li>
+                        <img src="img/settings.png" alt="settings-img">
+                        <p>Settings</p>
+                    </li>
+                    <li>
+                        <img src="img/support.png" alt="support-img">
+                        <p>Support</p>
+                    </li>
+                    <li>
+                        <img src="img/privacy.png" alt="privacy-img">
+                        <p>Privacy</p>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-        <div class="main">
+        <main class="content">
+            <div class="projects">
+                <h3>Your projects</h3>
 
-        </div>
-    </div>
-    
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Super Cool Project</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Less Cool Project</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Impossible App</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Easy Peasy App</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Ad Blocker</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="text-block">
+                        <h5 class="project-name">Money Maker</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicutidin nibh erat, id
+                            facilisis fells accumsan nec.
+                        </p>
+                    </div>
+                    <div class="action-box">
+                        <img src="img/save.png" alt="save" class="action-img">
+                        <img src="img/delete.png" alt="delete" class="action-img">
+                        <img src="img/share.png" alt="share" class="action-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="announ-and-trending">
+                <div class="announcements">
+                    <h4>Announcements</h4>
+                    <div class="announ-content">
+                        <div class="Announcements">
+                            <h6>Site Maintenance</h6>
+                            <p>Vestibullum condimentum tellus lacus,
+                                in accumsan elit maximus ad. Donec
+                                hendrerit sodles congue...
+                            </p>
+                        </div>
+                        <div class="announ-border"></div>
+                        <div class="Announcements">
+                            <h6>Communitiy Share Day</h6>
+                            <p>Vestibullum condimentum tellus lacus,
+                                in accumsan elit maximus ad. Donec
+                                hendrerit sodles congue...
+                            </p>
+                        </div>
+                        <div class="announ-border"></div>
+                        <div class="Announcements">
+                            <h6>Updated Privacy Policy</h6>
+                            <p>Vestibullum condimentum tellus lacus,
+                                in accumsan elit maximus ad. Donec
+                                hendrerit sodles congue...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trending">
+                    <h4>Trending</h4>
+                    <div class="trending-content">
+                        <div class="trend">
+                            <img src="img/trend-img_4.jpg" alt="" class="trend-img">
+                            <p>
+                                <span class="trend-tag">@tegan</span>
+                                <span class="trend-text">World Peace Builder</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="img/trend-img_3.jpg" alt="" class="trend-img">
+                            <p>
+                                <span class="trend-tag">@morgan</span>
+                                <span class="trend-text">Super Cool Project</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="img/trend-img_2.jpg" alt="" class="trend-img">
+                            <p>
+                                <span class="trend-tag">@kendall</span>
+                                <span class="trend-text">Life Changing App</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="img/trend-img_1.jpg" alt="" class="trend-img">
+                            <p>
+                                <span class="trend-tag">@alex</span>
+                                <span class="trend-text">No traffic Maker</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
 </body>
 </html>
